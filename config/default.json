@@ -1,0 +1,22 @@
+{
+    "collections": {
+        "excludeFlagged": true,
+        "requireDiscord": true,
+        "requireTwitter": true,
+        "requireWebsite": true,
+        "limit": 100
+    },
+    "stats": {
+        "minFloor": 1,
+        "maxFloor": 5,
+        "minItems": 5,
+        "maxItems": 1000,
+        "require24hrAvg": true,
+        "requireLowFP": true
+    },
+    "listings": {
+        "maxFloorSize": 2,
+        "floorThreshold": 1.0,
+        "wallSize": 10.0
+    }
+}

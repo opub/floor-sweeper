@@ -4,19 +4,22 @@
         "requireDiscord": true,
         "requireTwitter": true,
         "requireWebsite": true,
-        "limit": 100
+        "limit": 1000
     },
     "stats": {
-        "minFloor": 1,
-        "maxFloor": 5,
-        "minItems": 5,
-        "maxItems": 1000,
+        "minFloor": 0.5,
+        "maxFloor": 20.0,
+        "minItems": 4,
+        "maxItems": 100000,
         "require24hrAvg": true,
-        "requireLowFP": true
+        "requireLowFP": true,
+        "avgMultiple": 1.2 
     },
     "listings": {
         "maxFloorSize": 2,
-        "floorThreshold": 1.0,
-        "wallSize": 10.0
+        "floorThreshold": 5.0,
+        "newFloorOffset": 0.05,
+        "minWallSize": 10.0,
+        "minProfit": 1.0
     }
 }

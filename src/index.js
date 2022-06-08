@@ -1,8 +1,9 @@
 const config = require('config');
 const api = require('./api/magiceden');
-const {print} = require('./utils/report');
+const { log, print, elapsed } = require('./utils/report');
 
 function analyze(collections) {
+    log('analyzing...');
     const f = config.listings;
     const count = collections.length;
 
@@ -11,7 +12,7 @@ function analyze(collections) {
         let fp = listings[0].price;
         let end = Math.min(f.maxFloorSize, listings.length - 1);
         let j = 1;
-        while (j <= end) {
+        while (j < end) {
             let floor = (listings[j].price - fp) / fp * 100.0;
             if (floor <= f.floorThreshold) {
                 j++;
@@ -20,16 +21,18 @@ function analyze(collections) {
             }
         }
         let wall = (listings[j].price - fp) / fp * 100.0
-        collections[i].stats.wall = wall;
+        collections[i].wall = wall;
+        collections[i].profit = listings[j].price - fp - f.newFloorOffset;
     }
-    collections = collections.filter(c => c.stats.wall >= f.wallSize);
-    collections.sort(function (a, b) { return b.stats.wall - a.stats.wall });
-    console.log('analyze filtered', collections.length, 'of', count);
+    collections = collections.filter(c => c.wall >= f.minWallSize && c.profit >= f.minProfit);
+    collections.sort(function (a, b) { return b.profit - a.profit });
+    log('filtered', collections.length, 'collections of', count);
     return collections;
 }
 
 (async function () {
-    console.log('starting', new Date());
+    log('starting');
+    const start = Date.now();
 
     let collections = await api.getCollections();
     collections = await api.getStats(collections);
@@ -38,5 +41,5 @@ function analyze(collections) {
 
     print(collections);
 
-    console.log('stopping', new Date());
+    log('completed in', elapsed(Date.now() - start));
 })();

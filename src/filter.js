@@ -13,5 +13,5 @@ exports.filterStats = function (s) {
     return (s.floorPrice >= f.minFloor && s.floorPrice <= f.maxFloor &&
         s.listedCount >= f.minItems && s.listedCount <= f.maxItems) &&
         (!f.require24hrAvg || s.avgPrice24hr) &&
-        (!f.requireLowFP || s.floorPrice <= s.avgPrice24hr);
+        (!f.requireLowFP || s.floorPrice <= s.avgPrice24hr * f.avgMultiple);
 }

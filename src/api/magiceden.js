@@ -1,6 +1,6 @@
 const config = require('config');
-const {print, progress, clear} = require('../utils/report');
-const {filterCollection, filterStats} = require('../filter');
+const { log, progress } = require('../utils/report');
+const { filterCollection, filterStats } = require('../filter');
 
 const axios = require('axios');
 const axiosThrottle = require('axios-request-throttle');
@@ -11,6 +11,7 @@ const API = `https://api-${NETWORK}.magiceden.dev/v2`;
 const DIVIDER = 1000000000;
 
 exports.getCollections = async function () {
+    log('getting collections...');
     const max = config.collections.limit;
     const limit = 500;
     let collections = [];
@@ -28,18 +29,18 @@ exports.getCollections = async function () {
             collections.push(...filtered);
         }
         catch (e) {
-            loading = false;
-            console.error('getCollections failed', e);
+            loading = await requestError('getCollections', e);
         }
     }
     while (loading && collections.length < max)
 
     collections = collections.length > max ? collections.slice(0, max) : collections;
-    console.log('getCollections filtered', collections.length, 'of', count);
+    log('filtered', collections.length, 'collections of', count);
     return collections;
 };
 
 exports.getStats = async function (collections) {
+    log('getting stats...');
     const count = collections.length;
 
     for (let i = 0; i < collections.length; i++) {
@@ -56,18 +57,18 @@ exports.getStats = async function (collections) {
             }
         }
         catch (e) {
-            console.error('getStats failed', e);
+            let repeat = await requestError('getStats', e);
+            if(repeat) i--;
         }
-
-        progress(i/collections.length);
+        progress(i / collections.length);
     }
-    clear();
     collections = collections.filter(c => c.stats);
-    console.log('getStats filtered', collections.length, 'of', count);
+    log('filtered', collections.length, 'collections of', count);
     return collections;
 };
 
 exports.getListings = async function (collections) {
+    log('getting listings...');
     const limit = 20;
     let count = 0;
 
@@ -85,8 +86,7 @@ exports.getListings = async function (collections) {
                 listings.push(...data);
             }
             catch (e) {
-                loading = false;
-                console.error('getListings failed', e);
+                loading = await requestError('getListings', e);
             }
         }
         while (loading)
@@ -94,9 +94,21 @@ exports.getListings = async function (collections) {
         listings.sort(function (a, b) { return a.price - b.price });
         collections[i].listings = listings;
         collections[i].prices = listings.map(x => x.price);
-        progress(i/collections.length);
+        progress(i / collections.length);
     }
-    clear();
-    console.log('getListings loaded', count, 'items');
+    log('fetched', count, 'total listings');
     return collections;
 };
+
+async function requestError(source, err) {
+    const resp = err.response;
+    if (resp && resp.status === 429 && resp.config) {
+        // hitting the QPM limit so snooze a bit
+        await new Promise(res => setTimeout(res, 5000));
+        log('WARN', source, resp.statusText, resp.config.url);
+        return true;
+    } else {
+        log('ERROR', source, 'failed', e);
+        return false;
+    }
+}

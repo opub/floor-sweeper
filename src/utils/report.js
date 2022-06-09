@@ -1,3 +1,5 @@
+const readline = require('readline');
+
 function log() {
     clear();
     console.log(new Date(), ...arguments);
@@ -29,8 +31,8 @@ exports.progress = function (step) {
 };
 
 function clear() {
-    process.stdout.clearLine();
-    process.stdout.cursorTo(0);
+    readline.clearLine(process.stdout, 0);
+    readline.cursorTo(process.stdout, 0);
 };
 exports.clear = clear;
 

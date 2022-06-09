@@ -1,14 +1,14 @@
 {
+    "wallet": "<enter your wallet address>",
     "collections": {
         "excludeFlagged": true,
         "requireDiscord": true,
         "requireTwitter": true,
         "requireWebsite": true,
-        "limit": 1000
+        "limit": 10000
     },
     "stats": {
         "minFloor": 0.5,
-        "maxFloor": 20.0,
         "minItems": 4,
         "maxItems": 100000,
         "require24hrAvg": true,

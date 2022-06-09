@@ -8,9 +8,9 @@ exports.filterCollection = function (c) {
         (!f.requireWebsite || c.website && c.website.length > 0);
 }
 
-exports.filterStats = function (s) {
+exports.filterStats = function (s, balance) {
     const f = config.stats;
-    return (s.floorPrice >= f.minFloor && s.floorPrice <= f.maxFloor &&
+    return (s.floorPrice >= f.minFloor && s.floorPrice < balance &&
         s.listedCount >= f.minItems && s.listedCount <= f.maxItems) &&
         (!f.require24hrAvg || s.avgPrice24hr) &&
         (!f.requireLowFP || s.floorPrice <= s.avgPrice24hr * f.avgMultiple);

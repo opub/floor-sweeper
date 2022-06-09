@@ -1,6 +1,7 @@
 const config = require('config');
 const { log, progress } = require('../utils/report');
 const { filterCollection, filterStats } = require('../filter');
+const { LAMPORTS_PER_SOL } = require('@solana/web3.js');
 
 const axios = require('axios');
 const axiosThrottle = require('axios-request-throttle');
@@ -8,7 +9,6 @@ axiosThrottle.use(axios, { requestsPerSecond: 2 });
 
 const NETWORK = config.debug ? "devnet" : "mainnet";
 const API = `https://api-${NETWORK}.magiceden.dev/v2`;
-const DIVIDER = 1000000000;
 
 exports.getCollections = async function () {
     log('getting collections...');
@@ -39,7 +39,7 @@ exports.getCollections = async function () {
     return collections;
 };
 
-exports.getStats = async function (collections) {
+exports.getStats = async function (collections, balance) {
     log('getting stats...');
     const count = collections.length;
 
@@ -47,11 +47,11 @@ exports.getStats = async function (collections) {
         try {
             let url = `${API}/collections/${collections[i].symbol}/stats`;
             let { data } = await axios.get(url);
-            data.floorPrice = data.floorPrice / DIVIDER;
+            data.floorPrice = data.floorPrice / LAMPORTS_PER_SOL;
             if (data.avgPrice24hr) {
-                data.avgPrice24hr = data.avgPrice24hr / DIVIDER;
+                data.avgPrice24hr = data.avgPrice24hr / LAMPORTS_PER_SOL;
             }
-            if (filterStats(data)) {
+            if (filterStats(data, balance)) {
                 delete data.symbol;
                 collections[i].stats = data;
             }

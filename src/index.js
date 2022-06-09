@@ -1,8 +1,9 @@
 const config = require('config');
 const api = require('./api/magiceden');
+const { getBalance } = require('./wallet');
 const { log, print, elapsed } = require('./utils/report');
 
-function analyze(collections) {
+function analyze(collections, balance) {
     log('analyzing...');
     const f = config.listings;
     const count = collections.length;
@@ -10,19 +11,26 @@ function analyze(collections) {
     for (let i = 0; i < collections.length; i++) {
         let listings = collections[i].listings;
         let fp = listings[0].price;
+        let cost = fp;
         let end = Math.min(f.maxFloorSize, listings.length - 1);
         let j = 1;
         while (j < end) {
             let floor = (listings[j].price - fp) / fp * 100.0;
             if (floor <= f.floorThreshold) {
+                cost += listings[j].price;
                 j++;
             } else {
                 break;
             }
         }
-        let wall = (listings[j].price - fp) / fp * 100.0
-        collections[i].wall = wall;
-        collections[i].profit = listings[j].price - fp - f.newFloorOffset;
+        if (cost < balance) {
+            let wall = (listings[j].price - fp) / fp * 100.0
+            collections[i].wall = wall;
+            collections[i].profit = listings[j].price - fp - f.newFloorOffset;
+        } else {
+            collections[i].wall = -1;
+            collections[i].profit = -1;
+        }
     }
     collections = collections.filter(c => c.wall >= f.minWallSize && c.profit >= f.minProfit);
     collections.sort(function (a, b) { return b.profit - a.profit });
@@ -34,10 +42,11 @@ function analyze(collections) {
     log('starting');
     const start = Date.now();
 
+    const balance = await getBalance();
     let collections = await api.getCollections();
-    collections = await api.getStats(collections);
+    collections = await api.getStats(collections, balance);
     collections = await api.getListings(collections);
-    collections = analyze(collections);
+    collections = analyze(collections, balance);
 
     print(collections);
 

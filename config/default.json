@@ -5,7 +5,7 @@
         "requireDiscord": true,
         "requireTwitter": true,
         "requireWebsite": true,
-        "limit": 10000
+        "limit": 100
     },
     "stats": {
         "minFloor": 0.5,

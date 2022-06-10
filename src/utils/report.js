@@ -6,7 +6,21 @@ function log() {
 }
 exports.log = log;
 
-exports.print = function (collections) {
+exports.printCollectionSummary = function (collections) {
+    const summary = {
+        discord: 0,
+        twitter: 0,
+        website: 0
+    };
+    for (let c of collections) {
+        if(c.discord) summary.discord++;
+        if(c.twitter) summary.twitter++;
+        if(c.website) summary.website++;
+    }
+    log('includes', summary);
+};
+
+exports.printCollections = function (collections) {
     for (let c of collections) {
         log({
             symbol: c.symbol,
@@ -15,7 +29,7 @@ exports.print = function (collections) {
             wall: c.wall,
             stats: c.stats,
             listings: c.listings.length,
-            prices: c.prices.slice(0, 5)
+            prices: c.prices.slice(0, 6)
         });
     }
 };

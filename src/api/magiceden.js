@@ -1,5 +1,5 @@
 const config = require('config');
-const { log, progress } = require('../utils/report');
+const { log, progress, printCollectionSummary } = require('../utils/report');
 const { filterCollection, filterStats } = require('../filter');
 const { LAMPORTS_PER_SOL } = require('@solana/web3.js');
 
@@ -36,6 +36,7 @@ exports.getCollections = async function () {
 
     collections = collections.length > max ? collections.slice(0, max) : collections;
     log('filtered', collections.length, 'collections of', count);
+    printCollectionSummary(collections);
     return collections;
 };
 
@@ -108,7 +109,7 @@ async function requestError(source, err) {
         log('WARN', source, resp.statusText, resp.config.url);
         return true;
     } else {
-        log('ERROR', source, 'failed', e);
+        log('ERROR', source, 'failed', err);
         return false;
     }
 }

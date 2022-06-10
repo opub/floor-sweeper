@@ -2,7 +2,7 @@ const config = require('config');
 
 exports.filterCollection = function (c) {
     const f = config.collections;
-    return (!f.excludeFlagged || !c.isFlagged) &&
+    return c.symbol && (!f.excludeFlagged || !c.isFlagged) &&
         (!f.requireDiscord || c.discord && c.discord.length > 0) &&
         (!f.requireTwitter || c.twitter && c.twitter.length > 0) &&
         (!f.requireWebsite || c.website && c.website.length > 0);

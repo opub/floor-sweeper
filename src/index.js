@@ -1,7 +1,7 @@
 const config = require('config');
 const api = require('./api/magiceden');
 const { getBalance } = require('./wallet');
-const { log, print, elapsed } = require('./utils/report');
+const { log, printCollections, elapsed } = require('./utils/report');
 
 function analyze(collections, balance) {
     log('analyzing...');
@@ -50,7 +50,7 @@ function analyze(collections, balance) {
     collections = await api.getListings(collections);
     collections = analyze(collections, balance);
 
-    print(collections);
+    printCollections(collections);
 
     log('completed in', elapsed(Date.now() - start));
 })();

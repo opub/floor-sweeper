@@ -47,6 +47,7 @@ function analyze(collections, balance) {
     const balance = await getBalance();
     let collections = await api.getCollections();
     collections = await api.getStats(collections, balance);
+    collections = await api.getActivities(collections);
     collections = await api.getListings(collections);
     collections = analyze(collections, balance);
 

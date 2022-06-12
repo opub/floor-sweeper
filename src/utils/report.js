@@ -22,11 +22,12 @@ exports.printCollectionSummary = function (collections) {
 
 exports.printCollections = function (collections) {
     for (let c of collections) {
-        log({
+        console.log({
             symbol: c.symbol,
             name: c.name,
             profit: c.profit,
             wall: c.wall,
+            activity: c.activity,
             stats: c.stats,
             listings: c.listings.length,
             prices: c.prices.slice(0, 6)

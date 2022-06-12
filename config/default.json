@@ -16,6 +16,7 @@
         "avgMultiple": 1.2 
     },
     "listings": {
+        "min24hrActivity": 10,
         "maxFloorSize": 2,
         "floorThreshold": 5.0,
         "newFloorOffset": 0.05,

@@ -9,6 +9,7 @@ axiosThrottle.use(axios, { requestsPerSecond: 2 });
 
 const NETWORK = config.debug ? "devnet" : "mainnet";
 const API = `https://api-${NETWORK}.magiceden.dev/v2`;
+const DAY_MS = 24 * 60 * 60 * 1000;
 
 exports.getCollections = async function () {
     log('getting collections...');
@@ -59,7 +60,7 @@ exports.getStats = async function (collections, balance) {
         }
         catch (e) {
             let repeat = await requestError('getStats', e);
-            if(repeat) i--;
+            if (repeat) i--;
         }
         progress(i / collections.length);
     }
@@ -98,6 +99,37 @@ exports.getListings = async function (collections) {
         progress(i / collections.length);
     }
     log('fetched', count, 'total listings');
+    return collections;
+};
+
+exports.getActivities = async function (collections) {
+    log('getting activities...');
+    const yesterday = Date.now() - DAY_MS;
+    const actives = config.listings.min24hrActivity
+    const count = collections.length;
+
+    let i = collections.length
+    while (i > 0) {
+        i--;
+        try {
+            let url = `${API}/collections/${collections[i].symbol}/activities?offset=0&limit=100`;
+            let { data } = await axios.get(url);
+            if (data.length > actives && data[actives].blockTime * 1000 >= yesterday) {
+                collections[i].activity = {
+                    dateOfCheck: new Date(data[actives].blockTime * 1000),
+                    dateOf100th: new Date(data[data.length - 1].blockTime * 1000)
+                };
+            }
+            else {
+                collections.splice(i, 1);
+            }
+        }
+        catch (e) {
+            await requestError('getActivities', e);
+        }
+        progress((count - i) / count);
+    }
+    log('filtered', collections.length, 'collections of', count);
     return collections;
 };
 

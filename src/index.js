@@ -2,6 +2,7 @@ const config = require('config');
 const api = require('./api/magiceden');
 const { getBalance } = require('./wallet');
 const { log, printCollections, elapsed } = require('./utils/report');
+const fs = require('fs')
 
 function analyze(collections, balance) {
     log('analyzing...');
@@ -30,7 +31,7 @@ function analyze(collections, balance) {
                 collections[i].profit = listings[j].price - fp - f.newFloorOffset;
             }
         }
-        catch(e) {
+        catch (e) {
             log('ERROR analyze failed', collections[i].symbol, e);
         }
     }
@@ -44,12 +45,17 @@ function analyze(collections, balance) {
     log('starting');
     const start = Date.now();
 
-    const balance = await getBalance();
+    const balance = 0.009;
+    // const balance = await getBalance();
     let collections = await api.getCollections();
     collections = await api.getStats(collections, balance);
-    collections = await api.getActivities(collections);
-    collections = await api.getListings(collections);
-    collections = analyze(collections, balance);
+    // collections = await api.getActivities(collections);
+    // collections = await api.getListings(collections);
+    // collections = analyze(collections, balance);
+
+    collections.sort((a, b) => a.stats.floorPrice - b.stats.floorPrice);
+    collections = collections.slice(0, 100);
+    fs.writeFileSync('cheap.json', JSON.stringify(collections, null, 2));
 
     printCollections(collections);
 

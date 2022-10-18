@@ -1,18 +1,18 @@
 {
     "wallet": "<enter your wallet address>",
     "collections": {
-        "excludeFlagged": true,
-        "requireDiscord": true,
-        "requireTwitter": true,
-        "requireWebsite": true,
-        "limit": 100
+        "excludeFlagged": false,
+        "requireDiscord": false,
+        "requireTwitter": false,
+        "requireWebsite": false,
+        "limit": 11000
     },
     "stats": {
-        "minFloor": 0.5,
-        "minItems": 4,
+        "minFloor": 0,
+        "minItems": 1,
         "maxItems": 100000,
-        "require24hrAvg": true,
-        "requireLowFP": true,
+        "require24hrAvg": false,
+        "requireLowFP": false,
         "avgMultiple": 1.2 
     },
     "listings": {

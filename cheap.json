@@ -1,0 +1,1234 @@
+[
+  {
+    "symbol": "dapperpass",
+    "name": "The Dapper Pass",
+    "description": "The Dapper Pass is a collection of 5,555 editions which are needed in order to claim a Dapper Ducks genesis. The collection includes 3 different ranks which determine the rarity of the genesis upon claim.",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/dapperpass_pfp_1655117240064.png",
+    "twitter": "https://www.twitter.com/DeruggDucksNFT",
+    "discord": "https://www.discord.gg/dapperducksnft",
+    "website": "https://dapperducks.xyz",
+    "isFlagged": false,
+    "flagMessage": "",
+    "categories": [
+      "pfps",
+      "art"
+    ],
+    "stats": {
+      "floorPrice": 0.00009,
+      "listedCount": 51,
+      "volumeAll": 458348687120
+    }
+  },
+  {
+    "symbol": "solpepenewgeneration",
+    "name": "SolPepe New Gen",
+    "description": "SolPepe New Generation is the second generation collection of SolPepe.",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/solpepenewgeneration_pfp_1646515367239.gif",
+    "twitter": "https://www.twitter.com/SolPepe_NFT",
+    "discord": "https://www.discord.gg/hpndpKCq2d",
+    "website": "https://solpepe1.webflow.io/",
+    "isFlagged": true,
+    "flagMessage": "",
+    "categories": [
+      "pfps",
+      "art"
+    ],
+    "stats": {
+      "floorPrice": 0.0001,
+      "listedCount": 57
+    }
+  },
+  {
+    "symbol": "dragulate",
+    "name": "Dragulate",
+    "description": "Dope exclusive community for 111 Dragulates Staking, Marketplace & private node for HOLDERS",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/dragulate_pfp_1659825296466.jpeg",
+    "twitter": "https://www.twitter.com/Dragulate",
+    "discord": "https://www.discord.gg/KAUmNuT5",
+    "website": "https://www.launchmynft.io/collections/CYeFg9NtNR7qKwo8kUPqaF5xf7nMTcoAdrgY3Zr7zxz1/ejBfDoPbnjd6aSB3sdEA",
+    "categories": [
+      "art",
+      "virtual_worlds"
+    ],
+    "stats": {
+      "floorPrice": 0.005,
+      "listedCount": 25,
+      "volumeAll": 1573309360
+    }
+  },
+  {
+    "symbol": "neobears",
+    "name": "Neo Bears",
+    "description": "194 Bears ready to leave mountain peak to conquer the world of Solana | Staking | Mutation | Much more |",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/neobears_pfp_1652744418043.gif",
+    "twitter": "https://www.twitter.com/NeoBearsNFT",
+    "discord": "https://www.discord.gg/Rk93gWQVd8",
+    "categories": [
+      "pfps",
+      null
+    ],
+    "stats": {
+      "floorPrice": 0.005,
+      "listedCount": 46,
+      "volumeAll": 15054383838
+    }
+  },
+  {
+    "symbol": "degenaio",
+    "name": "DegenAIO",
+    "description": "333 degen samurai provides you access to our All in one tool to win all Degen #launchmynft mints.\nSick Arts. Badass Utility. DAO!",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/degenaio_pfp_1658813028736.png",
+    "twitter": "https://www.twitter.com/DegenAIO_",
+    "discord": "https://www.discord.gg/QSKFHw68qZ",
+    "isFlagged": true,
+    "flagMessage": "",
+    "categories": [
+      "pfps",
+      null
+    ],
+    "stats": {
+      "floorPrice": 0.006,
+      "listedCount": 116,
+      "volumeAll": 1229565332890
+    }
+  },
+  {
+    "symbol": "kaiju_city",
+    "name": "Kaiju City",
+    "description": "Kaiju City is a collection of 888 Kaiju NFT on the Solana blockchain. Stake to earn a $City token.",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/kaiju_city_pfp_1654187371777.png",
+    "twitter": "https://www.twitter.com/KaijuCity",
+    "discord": "https://www.discord.gg//invite/RJdKX2He",
+    "website": "https://www.kaijucity.xyz/",
+    "categories": [
+      "pfps",
+      null
+    ],
+    "stats": {
+      "floorPrice": 0.00676,
+      "listedCount": 37,
+      "volumeAll": 1472439320
+    }
+  },
+  {
+    "symbol": "pixel_coin_flip_nft",
+    "name": "Pixel Coin Flip",
+    "description": "Pixel Coin Flip is a collection of 555 coins. The rarity of the coin affects the royalty split from our coin flip game",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/pixel_coin_flip_nft_pfp_1658174499346.png",
+    "twitter": "https://www.twitter.com/flip_pixel",
+    "discord": "https://www.discord.gg/RUarXdZGVh",
+    "categories": [
+      "games",
+      null
+    ],
+    "stats": {
+      "floorPrice": 0.0069,
+      "listedCount": 34,
+      "volumeAll": 6393815960
+    }
+  },
+  {
+    "symbol": "manchote_club_unveiled",
+    "name": "Manchote Club Unveiled",
+    "description": "MCU is a nft secret project but not that secret in fact but a little bit but … 5622 unique nft's for 0 sol but that's not all ...",
+    "image": "https://dl.airtable.com/.attachmentThumbnails/73f7c0831b96b2ab2bec93bdfa559ca3/77001edf",
+    "stats": {
+      "floorPrice": 0.0069,
+      "listedCount": 604,
+      "volumeAll": 28710177279
+    }
+  },
+  {
+    "symbol": "solducknfts",
+    "name": "SolDuckNFTs",
+    "description": "Unique and exclusive SolDuckNFTs with incredible NFT gameplay and a strong Roadmap",
+    "image": "https://dl.airtable.com/.attachmentThumbnails/979e1444680c048a48868b42fb379ecf/fee00885",
+    "stats": {
+      "floorPrice": 0.0069,
+      "listedCount": 140,
+      "volumeAll": 13467699900
+    }
+  },
+  {
+    "symbol": "doodlephants",
+    "name": "Doodlephants",
+    "description": "845 Doodlephants ready to take on the Solana Ecosystem!",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/doodlephants_pfp_1654971961543.jpeg",
+    "twitter": "https://www.twitter.com/Doodlephants",
+    "discord": "https://www.discord.gg/nqrZzSjs",
+    "categories": [
+      "pfps",
+      "art"
+    ],
+    "stats": {
+      "floorPrice": 0.007,
+      "listedCount": 76,
+      "volumeAll": 34370012220
+    }
+  },
+  {
+    "symbol": "pengusol",
+    "name": "PenGuSoL",
+    "description": "2222 PenGu ready to make you $Dust",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/pengusol_pfp_1655077548800.png",
+    "twitter": "https://www.twitter.com/PenGuSoL",
+    "discord": "https://www.discord.gg/EgANyVrFhX",
+    "categories": [
+      "pfps",
+      "art"
+    ],
+    "stats": {
+      "floorPrice": 0.007,
+      "listedCount": 230,
+      "volumeAll": 30643521640
+    }
+  },
+  {
+    "symbol": "droidz",
+    "name": "Droidz",
+    "description": "190 Droidz on Solana",
+    "image": "https://arweave.net/A6cU4ghc_UzKHwTHrNZrrjy9p8fSB-KyfF77zpH_Zn4",
+    "twitter": "https://www.twitter.com/DroidzNFT",
+    "discord": "https://www.discord.gg/4CksJEam",
+    "categories": [
+      "pfps",
+      "virtual_worlds"
+    ],
+    "stats": {
+      "floorPrice": 0.007,
+      "listedCount": 42,
+      "volumeAll": 35027890000
+    }
+  },
+  {
+    "symbol": "stoned_shell_school",
+    "name": "Stoned Shell School",
+    "description": "1000 unique and original smoking turtles who love to get lit on the solana blockchain",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/stoned_shell_school_pfp_1648923915229.png",
+    "twitter": "https://www.twitter.com/StonedShellSchl",
+    "discord": "https://www.discord.gg/rjeUeMBF",
+    "categories": [
+      "pfps",
+      "photography"
+    ],
+    "stats": {
+      "floorPrice": 0.0077,
+      "listedCount": 141,
+      "volumeAll": 9954573900
+    }
+  },
+  {
+    "symbol": "ddsp",
+    "name": "Devs Do Something",
+    "description": "A unique collection of stressed out Solana investors roaming the blockchain waiting for Devs to do something!!",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/ddsp_pfp_1651691317505.gif",
+    "twitter": "https://www.twitter.com/helpusdevs",
+    "discord": "https://www.discord.gg/0000",
+    "categories": [
+      "pfps",
+      "art"
+    ],
+    "stats": {
+      "floorPrice": 0.00777,
+      "listedCount": 89,
+      "volumeAll": 10236253710
+    }
+  },
+  {
+    "symbol": "icypengo",
+    "name": "Icy Pengo",
+    "description": "Icy Pengo is an exclusive collection of 515 frozen members of the metaverse that have been recently caught redhanded with a questionable supply of ???.",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/icypengo_pfp_1647009970409.png",
+    "twitter": "https://www.twitter.com/PengoIcy",
+    "discord": "https://www.discord.gg/2CHDznrE2e",
+    "website": "https://pengoicy.web.app/",
+    "categories": [
+      "pfps",
+      "art"
+    ],
+    "stats": {
+      "floorPrice": 0.0079,
+      "listedCount": 97,
+      "volumeAll": 780600000
+    }
+  },
+  {
+    "symbol": "mythicapes",
+    "name": "Mythic Apes",
+    "description": "Mythic Apes is a 111 collection of the best apes on the Solana blockchain! Holders will receive 100% revenue from the Creator Royalties every day.",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/mythicapes_pfp_1645277817319.png",
+    "twitter": "https://www.twitter.com/MYTHICAPENFT",
+    "discord": "https://www.discord.gg/V8hqeMcSAv",
+    "isFlagged": true,
+    "flagMessage": "",
+    "categories": [
+      "pfps",
+      null
+    ],
+    "stats": {
+      "floorPrice": 0.00799,
+      "listedCount": 17,
+      "volumeAll": 9758500000
+    }
+  },
+  {
+    "symbol": "treasure_casino",
+    "name": "Treasure Casino",
+    "description": "Treasure Casino  is a Web3-based gambling platform that provides users with a Gamblish experience . 333 NFTs with 80% revenue share to holders .",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/treasure_casino_pfp_1659391367578.gif",
+    "twitter": "https://www.twitter.com/Treasurecasino_",
+    "discord": "https://www.discord.gg/ZpccfnT39E",
+    "categories": [
+      "games",
+      null
+    ],
+    "stats": {
+      "floorPrice": 0.008,
+      "listedCount": 56,
+      "volumeAll": 28512660520
+    }
+  },
+  {
+    "symbol": "vnc",
+    "name": "Ventura Casino ",
+    "description": "Ventura Casino is a 888 supply profit-sharing NFT collection where 88% of casino Revenue",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/vnc_pfp_1658766511125.png",
+    "twitter": "https://www.twitter.com/CasinoVentura",
+    "discord": "https://www.discord.gg/aKbdShQD",
+    "categories": [
+      "art",
+      "games"
+    ],
+    "stats": {
+      "floorPrice": 0.008,
+      "listedCount": 44,
+      "volumeAll": 1300550160
+    }
+  },
+  {
+    "symbol": "lmn1",
+    "name": "Devil Cat Coin",
+    "description": "Devil cat Coin, a collection with a supply of 333.",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/lmn1_pfp_1658605107263.png",
+    "twitter": "https://www.twitter.com/DevilCatCoin",
+    "discord": "https://www.discord.gg/7nXUPTs5QH",
+    "categories": [
+      "art",
+      null
+    ],
+    "stats": {
+      "floorPrice": 0.008,
+      "listedCount": 27,
+      "volumeAll": 3142122188
+    }
+  },
+  {
+    "symbol": "illuminati_secret_society",
+    "name": "Illuminati Secret Society",
+    "description": "345 passes will grant you access to the Illuminati Secret Society that empowers you with: minting/sniping bot, Private RPC server (no renewal fee)",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/illuminati_secret_society_pfp_1658606651113.jpeg",
+    "twitter": "https://www.twitter.com/IlluminatiSS345",
+    "discord": "https://www.discord.gg/EXwu5grnk2",
+    "isFlagged": true,
+    "flagMessage": "",
+    "categories": [
+      "pfps",
+      null
+    ],
+    "stats": {
+      "floorPrice": 0.008,
+      "listedCount": 93,
+      "volumeAll": 785526288070
+    }
+  },
+  {
+    "symbol": "the_babiens",
+    "name": "The Babiens",
+    "description": "The Babiens are 2555 randomly generated aliens ready to take over the world.",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/the_babiens_pfp_1648498810775.gif",
+    "twitter": "https://www.twitter.com/TheBabiens",
+    "discord": "https://www.discord.gg/AzkeChKmzN",
+    "website": "https://www.thebabiens.com/",
+    "categories": [
+      "pfps",
+      null
+    ],
+    "stats": {
+      "floorPrice": 0.008,
+      "listedCount": 139,
+      "volumeAll": 10804285602
+    }
+  },
+  {
+    "symbol": "solruthless",
+    "name": "SolRuthless",
+    "description": "200 Ruthless uniquely generated in Solana - All animated",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/solruthless_pfp_1650117110481.png",
+    "twitter": "https://www.twitter.com/SolRuthless",
+    "discord": "https://www.discord.gg/98xttds",
+    "isFlagged": true,
+    "flagMessage": "",
+    "categories": [
+      "art",
+      "virtual_worlds"
+    ],
+    "stats": {
+      "floorPrice": 0.008,
+      "listedCount": 56,
+      "volumeAll": 2683600000
+    }
+  },
+  {
+    "symbol": "spaceminionssource",
+    "name": "Space Minions Source",
+    "description": "2664 Minions are ready to feel gravity of Solana space.",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/spaceminionssource_pfp_1648158882831.png",
+    "twitter": "https://www.twitter.com/spaceminionsNFT",
+    "discord": "https://www.discord.gg/yjAZ6gwvth",
+    "website": "https://spaceminionssource.com/",
+    "isFlagged": true,
+    "flagMessage": "",
+    "categories": [
+      "pfps",
+      "games"
+    ],
+    "stats": {
+      "floorPrice": 0.008,
+      "listedCount": 456,
+      "volumeAll": 14457093875
+    }
+  },
+  {
+    "symbol": "apex_apes",
+    "name": "Apex Apes Reborn",
+    "description": "999 Apex Apes who are exclusive members of the ApexDAO. Staying ahead of the game with the best alpha by a paid research team. Earning $BANANA through staking.",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/apex_apes_pfp_1645412122217.gif",
+    "twitter": "https://www.twitter.com/apex_apes",
+    "discord": "https://www.discord.gg/apexapes",
+    "website": "https://apexapes.io/",
+    "categories": [
+      "pfps",
+      "art"
+    ],
+    "stats": {
+      "floorPrice": 0.008,
+      "listedCount": 225,
+      "volumeAll": 173126100062
+    }
+  },
+  {
+    "symbol": "framed_boys",
+    "name": "Framed Boys",
+    "description": "Framed Boys is a collection of 444 boys trapped in a painting frame conceived and hand-drawn by an enthusiastic young artist coming to the Solana blockchain with benefits for holders. For art lovers!",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/framed_boys_pfp_1646590803563.gif",
+    "twitter": "https://www.twitter.com/framedboysSOL",
+    "discord": "https://www.discord.gg/fwHjRPdTvs",
+    "website": "https://www.framedboys.com/",
+    "categories": [
+      "pfps",
+      "art"
+    ],
+    "stats": {
+      "floorPrice": 0.008,
+      "listedCount": 96,
+      "volumeAll": 24188653111
+    }
+  },
+  {
+    "symbol": "holder_horses",
+    "name": "Holder Horses",
+    "description": "2,222 Holder Horses that  give you rewards from every Holder Horse transaction in second markets and help to charity for children in need.",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/holder_horses_pfp_1644767157187.gif",
+    "twitter": "https://www.twitter.com/HolderHorses",
+    "discord": "https://www.discord.gg/Uv4rQ3hVzD",
+    "isFlagged": true,
+    "flagMessage": "",
+    "categories": [
+      "art",
+      "games"
+    ],
+    "stats": {
+      "floorPrice": 0.008,
+      "listedCount": 277,
+      "avgPrice24hr": 0.009,
+      "volumeAll": 13179308000
+    }
+  },
+  {
+    "symbol": "maushnft",
+    "name": "Maushes Club",
+    "description": "1111 Maushes. Made with Love. Grant DAO access. Maush is always watching! Every day, from dawn to sunset, 24 hours a day, 7 days a week, without breaks and days off, Maush Follows.",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/maushnft_pfp_1644141897852.png",
+    "twitter": "https://twitter.com/MaushesClub",
+    "discord": "https://discord.gg/qBUeGf24dy",
+    "website": "",
+    "categories": [
+      "art",
+      "virtual_worlds"
+    ],
+    "stats": {
+      "floorPrice": 0.008,
+      "listedCount": 182,
+      "volumeAll": 19099692939
+    }
+  },
+  {
+    "symbol": "prickly_petes_platoon_og_cactoon_series",
+    "name": "Prickly Pete's Platoon - OG Cactoon Series",
+    "description": "1440 Cactoon Warriors are geared to fight for the revival of the Earth. Each OG Cactoon is a unique character produced by Prickly Pete in the Platoon Forge. OGs can be staked and will generate passive income with $PETE. Each OG can produce 2 mutant clones during the mutation season. OG holders get access to the upcoming P2E game - Prickly Pete's - The Platoon Project. ",
+    "image": "https://dl.airtable.com/.attachmentThumbnails/68a7454e129fc4726d2a9f5ef6d1eab5/d1019db0",
+    "twitter": "https://twitter.com/Pricklyplatoons",
+    "discord": "https://discord.gg/wt3PwDSETz",
+    "website": "https://www.pricklypetesplatoon.army/",
+    "categories": [
+      "pfps",
+      "art"
+    ],
+    "stats": {
+      "floorPrice": 0.008,
+      "listedCount": 117,
+      "volumeAll": 2365649198353
+    }
+  },
+  {
+    "symbol": "dustdicegame",
+    "name": "DustDiceGame",
+    "description": "999 NFTs\n99% distribution of Royalties to holders\nhttps://www.dustdicegame.com",
+    "image": "https://nftstorage.link/ipfs/bafybeiaxpo3cbarfekx4iljylrbapgw5cmcmcl4kc4hkgtpa35whttqagy/31.jpeg",
+    "twitter": "https://www.twitter.com/DustDiceGame_",
+    "discord": "https://www.discord.gg/DGHYPvtq",
+    "website": "https://www.dustdicegame.com",
+    "categories": [
+      "games",
+      null
+    ],
+    "stats": {
+      "floorPrice": 0.0084,
+      "listedCount": 104,
+      "avgPrice24hr": 0.009409375,
+      "volumeAll": 149722544760
+    }
+  },
+  {
+    "symbol": "deninja",
+    "name": "De-Ninja",
+    "description": "New Ninja Game Silently Making Their Way Onto Solana Blockchain\n\n303 Ninja's launching new game to earn $DUST and $CRECK",
+    "image": "https://nftstorage.link/ipfs/bafybeicx5irfluyatvsgkh5z7rrbfdr45sz3ny4rhfjhrclsrjgjfe66ru/280.png",
+    "twitter": "",
+    "discord": "",
+    "categories": [
+      "pfps",
+      null
+    ],
+    "stats": {
+      "floorPrice": 0.0085,
+      "listedCount": 49,
+      "avgPrice24hr": 0.005,
+      "volumeAll": 1119360870
+    }
+  },
+  {
+    "symbol": "mih",
+    "name": "Mice Heist",
+    "description": "Just some Mice Heisting around and stacking their treasures on the Solana blockchain.",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/m_o_m_pfp_1652764266870.gif",
+    "twitter": "https://www.twitter.com/MiceHeistNFT",
+    "discord": "https://www.discord.gg/dRbcJCBqpz",
+    "isFlagged": false,
+    "flagMessage": "",
+    "categories": [
+      "pfps",
+      "art"
+    ],
+    "stats": {
+      "floorPrice": 0.0085,
+      "listedCount": 1053,
+      "volumeAll": 2290505620368
+    }
+  },
+  {
+    "symbol": "chimpsociety",
+    "name": "Chimp Society",
+    "description": "Chimp Society is collection of 1500 little monkeys. Hold 20+ and get access to BananaDAO. Staking is live and Chimps can earn daily $SCRAP",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/chimpsociety_pfp_1655858218290.png",
+    "twitter": "https://www.twitter.com/ChimpSocietyNFT",
+    "discord": "https://www.discord.gg/DspD2BPW2v",
+    "categories": [
+      "pfps",
+      "art"
+    ],
+    "stats": {
+      "floorPrice": 0.0087,
+      "listedCount": 190,
+      "avgPrice24hr": 0.008442857142857144,
+      "volumeAll": 47931602550
+    }
+  },
+  {
+    "symbol": "scrapblackjack",
+    "name": "Scrap Black Jack",
+    "description": "The first ever Blackjack Casino with $SCRAP!",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/scrapblackjack_pfp_1659524879665.jpeg",
+    "twitter": "https://www.twitter.com/ScrapBlackjack",
+    "discord": "https://www.discord.gg/J4rJDAWsAv",
+    "categories": [
+      "games",
+      null
+    ],
+    "stats": {
+      "floorPrice": 0.0088,
+      "listedCount": 64,
+      "volumeAll": 2270572540
+    }
+  },
+  {
+    "symbol": "wolfers",
+    "name": "Wolfers",
+    "description": "A project of 6000 wolfers that have access to a LMFT Minting bot, whale tracking and multiple in-house alpha callers.",
+    "image": "https://nftstorage.link/ipfs/QmTcZLUYAQMqsrRn9fRKh3QrPnU78GE2ytK53SGxujpM12/0.png",
+    "twitter": "https://twitter.com/wolfersnft",
+    "discord": "https://discord.com/invite/wolfers",
+    "website": "",
+    "categories": [
+      "pfps"
+    ],
+    "stats": {
+      "floorPrice": 0.0088,
+      "listedCount": 626,
+      "avgPrice24hr": 0.005,
+      "volumeAll": 575154568114
+    }
+  },
+  {
+    "symbol": "pharaohdegen",
+    "name": "Pharaoh Degen ",
+    "description": "3333 Pharaohs reigning over the #Solana ecosystem.\n",
+    "image": "https://nftstorage.link/ipfs/QmeMopSKuRMeKi4PVu4vLqKQtC9Mv2N29sh1tBvrgMCi73/0.png",
+    "twitter": "",
+    "discord": "",
+    "website": "",
+    "categories": [
+      "pfps"
+    ],
+    "stats": {
+      "floorPrice": 0.0088,
+      "listedCount": 205,
+      "avgPrice24hr": 0.015,
+      "volumeAll": 7009218731
+    }
+  },
+  {
+    "symbol": "dcursed_boyz",
+    "name": "D'Cursed Boyz",
+    "description": "We are here to cure the curse\n",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/dcursedboyz_pfp_1656186809175.gif",
+    "twitter": "https://twitter.com/DCursedboyz",
+    "discord": "https://discord.gg/SV5eRDPhmS",
+    "website": "",
+    "isFlagged": true,
+    "flagMessage": "",
+    "categories": [
+      "pfps"
+    ],
+    "stats": {
+      "floorPrice": 0.0088,
+      "listedCount": 665,
+      "avgPrice24hr": 0.005,
+      "volumeAll": 1070275092255
+    }
+  },
+  {
+    "symbol": "justabears",
+    "name": "Just A Bears",
+    "description": "JUST A BEARS, WTF?",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/justabears_pfp_1655839259006.gif",
+    "twitter": "https://www.twitter.com/solanabearsol",
+    "discord": "https://www.discord.gg/A6ezajDvQB",
+    "categories": [
+      "pfps",
+      "art"
+    ],
+    "stats": {
+      "floorPrice": 0.0088,
+      "listedCount": 179,
+      "avgPrice24hr": 0.006,
+      "volumeAll": 24570202440
+    }
+  },
+  {
+    "symbol": "the_elementalz",
+    "name": "The Elementalz",
+    "description": "3333 Elementalz breaking the balance on solana, 100% community driven project.",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/the_elementalz_pfp_1655047360968.png",
+    "twitter": "https://www.twitter.com/The_elementalz_",
+    "discord": "https://www.discord.gg/BHSEV5E8",
+    "website": "",
+    "categories": [
+      "pfps",
+      null
+    ],
+    "stats": {
+      "floorPrice": 0.0088,
+      "listedCount": 430,
+      "volumeAll": 32698700452
+    }
+  },
+  {
+    "symbol": "sla_skin_traits",
+    "name": "SLA Skin Traits",
+    "description": "Skin Traits are an expansion of the Secret Llama Agency ecosystem. They can be combined with Llama Agents to permanently change their appearance and be added to their Metadata.",
+    "image": "https://arweave.net/0LdOUVbbUdn_KpBjGC-sqexY9pipFEnNcrA3Pateiks?ext=png",
+    "twitter": "https://www.twitter.com/SecretLlama_A",
+    "discord": "https://www.discord.gg/5STFvY9nu5",
+    "website": "https://www.secretllamaagency.com/",
+    "categories": [
+      "pfps",
+      "games"
+    ],
+    "stats": {
+      "floorPrice": 0.0088,
+      "listedCount": 306,
+      "volumeAll": 65129816340
+    }
+  },
+  {
+    "symbol": "maybe_elephants",
+    "name": "Maybe Elephants",
+    "description": "Maybe Elephants are on a journey to maybe be the best in the world. Join along or maybe find out the hard way that we mean business.",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/maybe_elephants_pfp_1654114544910.jpeg",
+    "twitter": "https://www.twitter.com/MaybeElephants_",
+    "discord": "https://www.discord.gg/pf9P3fB5Wz",
+    "categories": [
+      "pfps",
+      "art"
+    ],
+    "stats": {
+      "floorPrice": 0.0088,
+      "listedCount": 695,
+      "avgPrice24hr": 0.006235454545454546,
+      "volumeAll": 444611839940
+    }
+  },
+  {
+    "symbol": "djckpt",
+    "name": "DUST JACKPOT",
+    "description": "The first ever jackpot game in solana",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/djckpt_pfp_1659958840393.png",
+    "twitter": "https://www.twitter.com/DustJackpot",
+    "discord": "https://www.discord.gg/QTXrpsJx",
+    "categories": [
+      "games",
+      "art"
+    ],
+    "stats": {
+      "floorPrice": 0.00888,
+      "listedCount": 72,
+      "volumeAll": 13263722700
+    }
+  },
+  {
+    "symbol": "cute_toads",
+    "name": "Cute Toads",
+    "description": "Cute, Unique and individually pixelated by hand 💚",
+    "image": "https://bafkreibg3ayuj3ts5zwl4saajaz6mmokbtsya2wpuzz2wv4bvffr2qjrzq.ipfs.nftstorage.link/",
+    "twitter": "https://twitter.com/CuteToads",
+    "discord": "https://discord.gg/yeCJThag",
+    "website": "",
+    "categories": [],
+    "stats": {
+      "floorPrice": 0.00888,
+      "listedCount": 75,
+      "volumeAll": 9290635697
+    }
+  },
+  {
+    "symbol": "bear_dao",
+    "name": "Bear DAO",
+    "description": "Bear DAO #29 - One of 999 Bear DAO tokens on the Solana Blockchain.",
+    "image": "https://nftstorage.link/ipfs/bafybeifknydktd5srk7vagbxbcdp6cepf4vitqu6v4z7xoai2tx65iahsm/29.gif",
+    "twitter": "",
+    "discord": "",
+    "categories": [
+      "pfps",
+      null
+    ],
+    "stats": {
+      "floorPrice": 0.0089,
+      "listedCount": 10,
+      "avgPrice24hr": 0.0084125,
+      "volumeAll": 127600000
+    }
+  },
+  {
+    "symbol": "fck_gambling",
+    "name": "f*ck gambling",
+    "description": "gambling = bad. cancel gambling meta. you addicts.",
+    "image": "https://nftstorage.link/ipfs/bafybeibhqpf7wwgrzs2uemhcqp7bbblfr7dycsrlmig5fqxfrxvn5eieoa/17.jpeg",
+    "twitter": "https://www.twitter.com/fckgamblingNFT",
+    "discord": "https://www.discord.gg/nyecmCkdx8",
+    "categories": [
+      "pfps",
+      "art"
+    ],
+    "stats": {
+      "floorPrice": 0.0089,
+      "listedCount": 115,
+      "volumeAll": 44390230298
+    }
+  },
+  {
+    "symbol": "solana_clicker",
+    "name": "Solana Clicker",
+    "description": "First ever CLICK to EARN game on the Solana blockchain.\n\nhttps://solanaclicker.netlify.app/\nhttps://twitter.com/solana_clicker",
+    "image": "https://nftstorage.link/ipfs/bafybeig6q2shtii4sos4lchkmr64betgua4qstrokmcpr4rbdlzqf7ltnu/16.png",
+    "twitter": "",
+    "discord": "",
+    "categories": [
+      "pfps",
+      null
+    ],
+    "stats": {
+      "floorPrice": 0.0089,
+      "listedCount": 122
+    }
+  },
+  {
+    "symbol": "buzz",
+    "name": "Buzz",
+    "description": "Buzz is a collection of 3333 honey bees buzzing around the solana block chain",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/buzz_pfp_1659257485534.jpeg",
+    "twitter": "https://www.twitter.com/BuzzsolNFT",
+    "discord": "https://www.discord.gg/upJHtqw9",
+    "categories": [
+      "pfps",
+      "art"
+    ],
+    "stats": {
+      "floorPrice": 0.0089,
+      "listedCount": 169,
+      "volumeAll": 12180375040
+    }
+  },
+  {
+    "symbol": "squeaky_mouse",
+    "name": "Squeaky Mouse",
+    "description": "Squeaky Mouse is a collection of 2111 PFP worthy NFT under Solana Blockchain. We are ready to SQUEAK!",
+    "image": "https://nftstorage.link/ipfs/bafybeib6g6r3aoaf52xmjaxkh7rj5w4es7jmd36qi5ibfelsjrcev3rxba/292.png",
+    "twitter": "",
+    "discord": "",
+    "categories": [
+      "pfps",
+      null
+    ],
+    "stats": {
+      "floorPrice": 0.0089,
+      "listedCount": 136,
+      "avgPrice24hr": 0.0089,
+      "volumeAll": 30064980859
+    }
+  },
+  {
+    "symbol": "hand_rock_paper",
+    "name": "Hand Rock Paper",
+    "description": "Play, bet and win (60% of the royalties will be distributed to the holders daily)",
+    "image": "https://nftstorage.link/ipfs/bafybeib6fkhanunl724fp3qvwdl63rgmdofetrosrsx3wxwi6i3yly24im/137.png",
+    "twitter": "https://www.twitter.com/undefined",
+    "discord": "https://www.discord.gg/",
+    "categories": [
+      "pfps",
+      null
+    ],
+    "stats": {
+      "floorPrice": 0.0089,
+      "listedCount": 24,
+      "volumeAll": 437115880
+    }
+  },
+  {
+    "symbol": "chessars",
+    "name": "ChessarsNFT",
+    "description": "450 Chessars share royalities from solautochess.com.",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/chessars_pfp_1658833563832.png",
+    "twitter": "https://www.twitter.com/ChessarsNFT",
+    "discord": "https://www.discord.gg/F42j28jY",
+    "website": "https://solautochess.com",
+    "categories": [
+      "games",
+      "pfps"
+    ],
+    "stats": {
+      "floorPrice": 0.0089,
+      "listedCount": 58,
+      "avgPrice24hr": 0.005,
+      "volumeAll": 7996270480
+    }
+  },
+  {
+    "symbol": "medieval_wfaces",
+    "name": "Medieval Wfaces",
+    "description": "555 Wfaces that are generated from a combination of medieval themed backgrounds, weapons, armor, clothing, and class categories.\nWOJE BLESS THE WOJAK KINGDOM",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/medieval_wfaces_pfp_1658695470772.png",
+    "twitter": "https://www.twitter.com/MedievalWfaces",
+    "discord": "https://www.discord.gg/F9wmcquDfm",
+    "categories": [
+      "art",
+      "pfps"
+    ],
+    "stats": {
+      "floorPrice": 0.0089,
+      "listedCount": 57,
+      "avgPrice24hr": 0.0089,
+      "volumeAll": 1621837852
+    }
+  },
+  {
+    "symbol": "roulette777",
+    "name": "Roulette Royalties",
+    "description": "77.7% of all royalty revenue will be given back to our holders in which they receive a weekly pay out.",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/roulette777_pfp_1658533437379.jpeg",
+    "twitter": "https://www.twitter.com/rouletteNFT1",
+    "discord": "https://www.discord.gg/unhF5T32hb",
+    "categories": [
+      "games",
+      "virtual_worlds"
+    ],
+    "stats": {
+      "floorPrice": 0.0089,
+      "listedCount": 76,
+      "avgPrice24hr": 0.0089,
+      "volumeAll": 46640779960
+    }
+  },
+  {
+    "symbol": "tamagodragonz",
+    "name": "Tamago Dragonz",
+    "description": "2222 Tamago Dragonz by NORY PROJECT STUDIO",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/tamagodragonz_pfp_1657699334444.png",
+    "twitter": "https://www.twitter.com/NoryozNFT",
+    "discord": "https://www.discord.gg/AgB77zazsQ",
+    "website": "https://www.noryoz.com/",
+    "categories": [
+      "pfps",
+      "art"
+    ],
+    "stats": {
+      "floorPrice": 0.0089,
+      "listedCount": 95,
+      "avgPrice24hr": 0.00695,
+      "volumeAll": 9173045440
+    }
+  },
+  {
+    "symbol": "flosteesgen1",
+    "name": "Floatees GEN 1",
+    "description": "Are you Degen enough? Cleanest artwork on Solana with secondary staking and future projects for holders only + alpha calls! We got this 💨",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/flosteesgen1_pfp_1657496691956.png",
+    "twitter": "https://www.twitter.com/solFloatees",
+    "discord": "https://www.discord.gg/MNu6YsxgNy",
+    "categories": [
+      "pfps",
+      "art"
+    ],
+    "stats": {
+      "floorPrice": 0.0089,
+      "listedCount": 35,
+      "volumeAll": 871900000
+    }
+  },
+  {
+    "symbol": "neckless",
+    "name": "Neckless",
+    "description": "5555 Neckless from fantasy world",
+    "image": "https://nftstorage.link/ipfs/QmUYz74Dub9tzKfNQC38jiACbJFb1RqwaJVt3UZpMNYKdR/0.png",
+    "twitter": "",
+    "discord": "",
+    "website": "",
+    "isFlagged": true,
+    "flagMessage": "",
+    "categories": [
+      "pfps"
+    ],
+    "stats": {
+      "floorPrice": 0.0089,
+      "listedCount": 193,
+      "volumeAll": 26500450790
+    }
+  },
+  {
+    "symbol": "duckyou",
+    "name": "Duck You",
+    "description": "Duck You is a collection of 1150 unique NFTs. Duck You is looking to takeover the Solana ecosystem. #DuckYou is a movement.",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/duckyou_pfp_1656197410948.png",
+    "twitter": "https://www.twitter.com/DuckYouDAO",
+    "discord": "https://www.discord.gg/duckyou",
+    "website": "http://duckyounft.com/ not online yet",
+    "categories": [
+      "pfps",
+      "art"
+    ],
+    "stats": {
+      "floorPrice": 0.0089,
+      "listedCount": 68,
+      "avgPrice24hr": 0.0081,
+      "volumeAll": 17656304580
+    }
+  },
+  {
+    "symbol": "cyberskellas",
+    "name": "Cyber Skellas",
+    "description": "A collection of 5000 skellas awakening from the death.",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/cyberskellas_pfp_1656095688430.png",
+    "twitter": "https://www.twitter.com/CyberSkellasDAO",
+    "discord": "https://www.discord.gg/DsJpA6V6WA",
+    "website": "",
+    "isFlagged": true,
+    "flagMessage": "",
+    "categories": [
+      "pfps",
+      "art"
+    ],
+    "stats": {
+      "floorPrice": 0.0089,
+      "listedCount": 830,
+      "avgPrice24hr": 0.00695,
+      "volumeAll": 275711447552
+    }
+  },
+  {
+    "symbol": "triceratopsdao",
+    "name": "TriceratopsDAO",
+    "description": "3333 incredibly cool triceratops. Hell, they lived millions of years ago and came back to be in your wallet. These cute creatures will give you access to the DAO and will also earn you tokens",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/triceratopsdao_pfp_1656785353677.gif",
+    "twitter": "https://www.twitter.com/TriceratopsDAO",
+    "discord": "https://www.discord.gg/PcC924pfgG",
+    "website": "",
+    "categories": [
+      "art",
+      "virtual_worlds"
+    ],
+    "stats": {
+      "floorPrice": 0.0089,
+      "listedCount": 342,
+      "volumeAll": 59051305597
+    }
+  },
+  {
+    "symbol": "shadow_lords",
+    "name": "Shadow Lords",
+    "description": "When darkness falls, Shadow Lords reign supreme.",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/shadow_lords_pfp_1656315133604.gif",
+    "twitter": "https://www.twitter.com/ShadowLordsNFT",
+    "discord": "https://www.discord.gg/9JNJWYBGBu",
+    "website": "",
+    "isFlagged": true,
+    "flagMessage": "",
+    "categories": [
+      "pfps",
+      "art"
+    ],
+    "stats": {
+      "floorPrice": 0.0089,
+      "listedCount": 367,
+      "avgPrice24hr": 0.005,
+      "volumeAll": 957753866231
+    }
+  },
+  {
+    "symbol": "stranger_dao",
+    "name": "StrangerDAO",
+    "description": "We're all stranger once | 3333 Stranger gather to leave behind the chains of society, and become StrangersDAO. Be who you want to be strangers?",
+    "image": "https://bafkreihv5r4dxfhkjfpl6tedzl76rjuaueogrdjydotvuqvvjusa4ndrgi.ipfs.nftstorage.link",
+    "twitter": "https://twitter.com/_StrangerDAO",
+    "discord": "https://discord.gg/hVV2DWqBtb",
+    "website": "",
+    "categories": [],
+    "stats": {
+      "floorPrice": 0.0089,
+      "listedCount": 334,
+      "volumeAll": 33831730900
+    }
+  },
+  {
+    "symbol": "ousamadao",
+    "name": "OusamaDAO",
+    "description": "3333 Ousama will rule all degen",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/ousamadao_pfp_1654606186972.png",
+    "twitter": "https://www.twitter.com/Ousama_Sol",
+    "discord": "https://www.discord.gg/discord.gg/TRbad5VHkv",
+    "website": "",
+    "categories": [
+      "pfps",
+      "art"
+    ],
+    "stats": {
+      "floorPrice": 0.0089,
+      "listedCount": 266,
+      "volumeAll": 61682998292
+    }
+  },
+  {
+    "symbol": "freaky_kittys_nft",
+    "name": "Freaky Kittys",
+    "description": "911 Freaky Kittys from the other side of the galaxy came to earth to have a great time, but something went wrong…",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/freaky_kittys_nft_pfp_1654016669056.gif",
+    "twitter": "https://www.twitter.com/Reunion_land",
+    "discord": "https://www.discord.gg/MdvgunsTeA",
+    "website": "https://reunion.land",
+    "categories": [
+      "art",
+      "pfps"
+    ],
+    "stats": {
+      "floorPrice": 0.0089,
+      "listedCount": 211,
+      "volumeAll": 16354401240
+    }
+  },
+  {
+    "symbol": "dehounds",
+    "name": "DeHounds",
+    "description": "Mighty Hounds loyal to the immortal Gods!",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/dehounds_pfp_1649677689650.png",
+    "twitter": "https://www.twitter.com/DeHoundsNFT",
+    "discord": "https://www.discord.gg/DeHounds",
+    "website": "",
+    "isFlagged": true,
+    "flagMessage": "",
+    "categories": [
+      "pfps",
+      "virtual_worlds"
+    ],
+    "stats": {
+      "floorPrice": 0.0089,
+      "listedCount": 827,
+      "avgPrice24hr": 0.008116666666666666,
+      "volumeAll": 306043405104
+    }
+  },
+  {
+    "symbol": "bustyapedegenerettes",
+    "name": "Busty Ape Degenerettes",
+    "description": "235 of the bustiest and most degenerate apes in the jungle",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/bustyapedegenerettes_pfp_1646516382898.png",
+    "twitter": "https://www.twitter.com/BullishApeDegen",
+    "discord": "https://www.discord.gg/PVZyKBcrZy",
+    "categories": [
+      "art",
+      "pfps"
+    ],
+    "stats": {
+      "floorPrice": 0.0089,
+      "listedCount": 26,
+      "volumeAll": 597900000
+    }
+  },
+  {
+    "symbol": "solsandcastles",
+    "name": "SolSandCastles",
+    "description": "Collection of Randomly generated Sand Castles. Delist before the waves sweep your Sand Castles away",
+    "image": "https://dl.airtable.com/.attachments/0c6cd18ebca905389a667f0f72073c31/e0a38bc6/paccastle3x3x.png",
+    "twitter": "https://twitter.com/solsandcastles",
+    "discord": "https://discord.com/invite/47jtwTydSc",
+    "website": "",
+    "categories": [
+      "pfps",
+      "art"
+    ],
+    "stats": {
+      "floorPrice": 0.0089,
+      "listedCount": 127,
+      "volumeAll": 14270809120
+    }
+  },
+  {
+    "symbol": "solana_mafia_ladies",
+    "name": "Solana Mafia Ladies",
+    "description": "A collection of 2222 unique Solana Mafia Ladies that will match your Solana Mafia Mobsters.",
+    "image": "https://dl.airtable.com/.attachments/8849542ef300d06c5a51f39dd40ea0a0/b983e919/sneakpeek.png",
+    "twitter": "https://twitter.com/solanamob",
+    "discord": "https://discord.gg/jEYq8MK7vy",
+    "website": "",
+    "isFlagged": true,
+    "flagMessage": "",
+    "stats": {
+      "floorPrice": 0.0089,
+      "listedCount": 341,
+      "volumeAll": 29442685000
+    }
+  },
+  {
+    "symbol": "thefaceless",
+    "name": "Faceless",
+    "description": "I know people who have a whole universe inside them, a vast universe. But they are not in a hurry to get it out. So as not to go crazy.",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/thefaceless_pfp_1657465954110.png",
+    "twitter": "https://www.twitter.com/Faceless3333",
+    "discord": "https://www.discord.gg/GUTrcB8y",
+    "website": "",
+    "isFlagged": true,
+    "flagMessage": "",
+    "categories": [
+      "pfps",
+      "art"
+    ],
+    "stats": {
+      "floorPrice": 0.00899,
+      "listedCount": 474,
+      "volumeAll": 722043142378
+    }
+  },
+  {
+    "symbol": "fomobears",
+    "name": "FOMO on BEARS",
+    "description": "Bears that didn't make it to the train. Instead they become an astral spirit and soon come to Solana. They are fcking dope. #AreYouOkay?",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/fomobears_pfp_1651127789347.png",
+    "twitter": "https://www.twitter.com/FOMOBears",
+    "discord": "https://www.discord.gg/9s5Cn83Dzt",
+    "categories": [
+      "pfps",
+      "art"
+    ],
+    "stats": {
+      "floorPrice": 0.00899,
+      "listedCount": 429,
+      "avgPrice24hr": 0.00603,
+      "volumeAll": 36785191840
+    }
+  },
+  {
+    "symbol": "daggorz",
+    "name": "Daggorz by SolanArtifacts",
+    "description": "777 Hand-Drawn Daggorz | Lore-based role play story | Magik potion deflation evolution ",
+    "image": "https://dl.airtable.com/.attachmentThumbnails/d6c064e43056fd08a5dfb46fa34e2644/d9ed2260",
+    "twitter": "https://twitter.com/SolanArtifacts",
+    "discord": "https://discord.gg/Cg6jX6Ut42",
+    "website": "https://www.solanartifacts.io/",
+    "categories": [
+      "art",
+      "virtual_worlds"
+    ],
+    "stats": {
+      "floorPrice": 0.00899,
+      "listedCount": 169,
+      "volumeAll": 39881800000
+    }
+  },
+  {
+    "symbol": "sphx",
+    "name": "SphinxLab",
+    "description": "Sphinxlab is a community-driven ecosystem dedicated to the betterment of the SOL space with its free-to-use launchpad at the core of its brand.\n\nMade by a creative team of full stack and blockchain developers and customer supporters. SphinxLab is offering you full support from free launching to premium services after the mint.",
+    "image": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/sphx_pfp_1648149064068.gif",
+    "twitter": "https://www.twitter.com/LabSphinx",
+    "discord": "https://www.discord.gg/v6RmAnkqtN",
+    "website": "https://sphinx-lab.io/",
+    "categories": [
+      "games",
+      "virtual_worlds"
+    ],
+    "stats": {
+      "floorPrice": 0.0089999,
+      "listedCount": 133,
+      "avgPrice24hr": 0.0087491,
+      "volumeAll": 124484164330
+    }
+  }
+]
